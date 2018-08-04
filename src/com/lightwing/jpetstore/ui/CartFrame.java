@@ -51,7 +51,7 @@ public class CartFrame extends MyFrame {
         btuSubmit.addActionListener(e -> {
             // 生成订单
             generateOrders();
-            JLabel label = new JLabel("订单已经生成，等待付款。");
+            JLabel label = new JLabel("Congratulations, please pay!");
             label.setFont(new Font("微软雅黑", Font.PLAIN, 15));
             if (JOptionPane.showConfirmDialog(this, label, "信息", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
                 // TODO 付款

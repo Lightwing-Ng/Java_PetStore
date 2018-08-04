@@ -4,7 +4,6 @@ import javax.swing.table.AbstractTableModel;
 
 // 购物车表格模型
 public class CartTableModel extends AbstractTableModel {
-
     // 表格列名columnNames
     private String[] columnNames = {
             "商品编号", "商品名", "商品单价", "数量", "商品应付金额"
@@ -69,5 +68,4 @@ public class CartTableModel extends AbstractTableModel {
         } catch (Exception ignored) {
         }
     }
-
 }
