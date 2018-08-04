@@ -1946,3 +1946,12 @@ Manifest-Version: 1.0 Class-Path: . ./ lib/ mysql-connector-java-5.1.41-bin.jar 
 └── startup.bat
 ```
 
+#### 02 使用 IDEA 打包
+
+1. 选择菜单 `File->Project Structure`，将弹出 `Project Structure` 的设置对话框。
+2. 选择左边的 Artifacts 后点击上方的「+」按钮
+3. 在弹出的框中选择 `jar->from moduls with dependencies`.
+4. 选择要启动的类，然后确定
+5. 应用之后选择菜单 `Build->Build Artifacts`，选择 Build 或者 Rebuild 后即可生成，生成的 jar 文件位于工程项目目录的 `out/artifacts` 下
+
+![](img/Screen Shot 2018-08-04 at 20.42.57.png)
