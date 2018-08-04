@@ -1,11 +1,11 @@
 package com.lightwing.jpetstore.domain;
 
-// 订单明细
+// Order Detail
 public class OrderDetail {
-    private long orderid;       // 订单Id
-    private String productid;   // 商品Id
-    private int quantity;       // 商品数量
-    private double unitcost;    // 单价
+    private long orderid;       // Order ID
+    private String productid;   // Product ID
+    private int quantity;       // Product Quantity
+    private double unitcost;    // Unit Cost
 
     public long getOrderid() {
         return orderid;
@@ -38,5 +38,4 @@ public class OrderDetail {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
 }
