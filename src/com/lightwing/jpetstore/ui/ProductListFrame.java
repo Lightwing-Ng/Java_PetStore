@@ -69,12 +69,11 @@ public class ProductListFrame extends MyFrame {
         JButton btnGo = new JButton("Search");
         btnGo.setFont(new Font("CamingoCode", Font.PLAIN, 15));
         searchPanel.add(btnGo);
-
         JButton btnReset = new JButton("Reset");
         btnReset.setFont(new Font("CamingoCode", Font.PLAIN, 15));
         searchPanel.add(btnReset);
 
-        // 注册查询按钮的ActionEvent事件监听器
+        // 注册查询按钮的 ActionEvent 事件监听器
         btnGo.addActionListener(e -> {
             // 所选择的类别
             String category = (String) comboBox.getSelectedItem();
@@ -84,7 +83,7 @@ public class ProductListFrame extends MyFrame {
             table.setModel(model);
         });
 
-        // 注册重置按钮的ActionEvent事件监听器
+        // 注册重置按钮的 ActionEvent 事件监听器
         btnReset.addActionListener(e -> {
             products = dao.findAll();
             TableModel model = new ProductTableModel(products);
@@ -132,7 +131,7 @@ public class ProductListFrame extends MyFrame {
         JSeparator separator_2 = new JSeparator();
         detailPanel.add(separator_2);
 
-        JButton btnAdd = new JButton("添加到购物车");
+        JButton btnAdd = new JButton("Add to Cart");
         btnAdd.setFont(new Font("CamingoCode", Font.PLAIN, 15));
         detailPanel.add(btnAdd);
 
@@ -140,7 +139,7 @@ public class ProductListFrame extends MyFrame {
         JLabel lb1 = new JLabel("");
         detailPanel.add(lb1);
 
-        JButton btnCheck = new JButton("查看购物车");
+        JButton btnCheck = new JButton("Check My Cart");
         btnCheck.setFont(new Font("CamingoCode", Font.PLAIN, 15));
         detailPanel.add(btnCheck);
 
@@ -210,14 +209,14 @@ public class ProductListFrame extends MyFrame {
                 lblImage.setIcon(icon);
 
                 String descn = p.getDescn();
-                lblDescn.setText("商品描述：" + descn);
+                lblDescn.setText("Description: " + descn);
 
                 double listprice = p.getListprice();
-                String slistprice = String.format("商品市场价：%.2f", listprice);
+                String slistprice = String.format("List Price: %.2f", listprice);
                 lblListprice.setText(slistprice);
 
                 double unitcost = p.getUnitcost();
-                String slblUnitcost = String.format("商品单价：%.2f", unitcost);
+                String slblUnitcost = String.format("Unit Cost: %.2f", unitcost);
                 lblUnitcost.setText(slblUnitcost);
             });
         } else {
