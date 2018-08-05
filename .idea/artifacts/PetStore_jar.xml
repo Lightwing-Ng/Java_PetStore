@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PetStore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PetStore_jar</output-path>
+    <root id="archive" name="PetStore.jar">
+      <element id="module-output" name="PetStore" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/db/mysql-connector-java-5.1.41-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

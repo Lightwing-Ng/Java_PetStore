@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/db/jpetstore-mysql-dataload-gbk.sql" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/db/jpetstore-mysql-schema-gbk.sql" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/AccountDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/OrderDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/OrderDetailDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/ProductDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/mysql/AccountDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/mysql/DBHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/mysql/OrderDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/mysql/OrderDetailDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/dao/mysql/ProductDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/domain/Account.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/domain/Order.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/domain/OrderDetail.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/domain/Product.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/CartFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/CartTableModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/LoginFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/MainApp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/MyFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/ProductListFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lightwing/jpetstore/ui/ProductTableModel.java" charset="GBK" />
+  </component>
+</project>
